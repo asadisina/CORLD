@@ -6,9 +6,14 @@ Verilog files are designed to be sythensized by DC.
 The MATLAB files simulate the correlator and decorrelator techniques proposed in the paper and Verilog files are responsible for hardware implementations of the mentioned methods.
 
 # Requirements
-MATLAB (for .m files, which are created to run and test the performance of the proposed approaches)
-Modelsim (for running and verifying verilog codes)
-Design Compiler (for sythesizing the hardware implementations to obtain different parameters)
+- MATLAB (for .m files, which are created to run and test the performance of the proposed approaches)
+- Modelsim (for running and verifying verilog codes)
+- Design Compiler (for sythesizing the hardware implementations to obtain different parameters)
+
+# MATLAB Codes
+ 
+# Verilog Codes
+
 
 Hope they will help our SC community and to expand the utilization of SC.
 Sina
