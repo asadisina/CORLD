@@ -26,6 +26,7 @@ Both codes consist conrol parameter panel, and the parameter are defined as foll
 ### Result:
 There are some result for the purpose of accuracy and performance that we are looking for in Matlab code as follows:
 ![image](https://user-images.githubusercontent.com/46909403/129071346-7f2e5425-ceee-401c-ba28-6c32519a3738.png)
+
 In this picture, the following params are defined:
 - error_cm_max_mean : the MAE (mean absolute error rate) of maximum function using correlation manipulation technique
 - error_cm_min_max : the maximum error rate of minimum function using correlation manipulation technique
@@ -39,6 +40,7 @@ In this picture, the following params are defined:
 - error_xor_mean : the MAE (mean absolute error rate) of XOR function using proposed CORLD technique
 
 ![image](https://user-images.githubusercontent.com/46909403/129071943-c89ac507-0bbe-49f5-89cf-2bad3e3c669b.png)
+
 In the above picture, the following params are defined:
 - SCC_avg : the stochastic computing correlation rate of the proposed CORLD technique
 - SCC_avg_cm : the stochastic computing correlation rate of the correlation manipulation technique
