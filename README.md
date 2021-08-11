@@ -15,7 +15,8 @@ Both codes consist conrol parameter panel, and the parameter are defined as foll
 ### Correlator
 - n : shows the bit-width of the system
 - k : determines the number of cycles or length of bit-streams
-- input-mode : There are defined three types of input bit-streams, Sobol-based and FSM-based both for determinstic techniques, LFSR-based for non-determinstic (conventional) approach.  
+- input-mode : There are defined three types of input bit-streams, Sobol-based and FSM-based [[1]](#1) both for determinstic techniques, LFSR-based for non-determinstic (conventional) approach.  
+- 
  
 ## Verilog Codes
 Verilog files are responsible for hardware implementations of the mentioned methods.
