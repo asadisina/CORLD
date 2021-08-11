@@ -38,7 +38,11 @@ In this picture, the following params are defined:
 - error_mp_mean : the MAE (mean absolute error rate) of multiplication function using proposed CORLD technique
 - error_xor_mean : the MAE (mean absolute error rate) of XOR function using proposed CORLD technique
 
-![image](https://user-images.githubusercontent.com/46909403/129070551-aef059ef-c8da-455a-b834-1daa22238024.png)
+![image](https://user-images.githubusercontent.com/46909403/129071943-c89ac507-0bbe-49f5-89cf-2bad3e3c669b.png)
+In the above picture, the following params are defined:
+- SCC_avg : the stochastic computing correlation rate of the proposed CORLD technique
+- SCC_avg_cm : the stochastic computing correlation rate of the correlation manipulation technique
+- SCC_avg_original : the stochastic computing correlation rate of the original input bit-streams
 
 ## Verilog Codes
 Verilog files are responsible for hardware implementations of the mentioned methods.
