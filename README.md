@@ -22,10 +22,8 @@ Both codes consist conrol parameter panel, and the parameter are defined as foll
 Verilog files are responsible for hardware implementations of the mentioned methods.
 
 ## References
-<a id="1">[1]</a>
-Asadi, Sina, M. Hassan Najafi, and Mohsen Imani. "CORLD: In-Stream Correlation Manipulation for Low-Discrepancy Stochastic Computing.", The 40th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2021
-<a id="2">[2]</a>
-Asadi, Sina, M. Hassan Najafi, and Mohsen Imani. "A Low-Cost FSM-based Bit-Stream Generator for Low-Discrepancy Stochastic Computing.", 2021 Design, Automation & Test in Europe Conference & Exhibition (DATE), 2021.
+- <a id="1">[1]</a> Asadi, Sina, M. Hassan Najafi, and Mohsen Imani. "CORLD: In-Stream Correlation Manipulation for Low-Discrepancy Stochastic Computing.", The 40th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2021
+- <a id="2">[2]</a> Asadi, Sina, M. Hassan Najafi, and Mohsen Imani. "A Low-Cost FSM-based Bit-Stream Generator for Low-Discrepancy Stochastic Computing.", 2021 Design, Automation & Test in Europe Conference & Exhibition (DATE), 2021.
 
 
 
