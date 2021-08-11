@@ -22,7 +22,24 @@ Both codes consist conrol parameter panel, and the parameter are defined as foll
 - SDS1_fix & SDS2_fix : these two shows the format of ouput bit-streams based on matlab built-in sobol numbers if output_base_selector is set to 1 or 2 (FSM-based or Sobol-based). Same as what mentioned earlier, for Sobol-based outputs, if both of them are set to the same number, the input bit-streams are correlated.  
 - cm_depth : in order to compare the proposed method with the latest approach which is correlation manipulation technique (fully explained in the paper), it is added to the work and this param shows the depth of it.
 - cm_after: it is just a test to see how the proposed method performs if combined with correlation manipulation technique. 
- 
+
+### Result:
+There are some result for the purpose of accuracy and performance that we are looking for in Matlab code as follows:
+![image](https://user-images.githubusercontent.com/46909403/129071346-7f2e5425-ceee-401c-ba28-6c32519a3738.png)
+In this picture, the following params are defined:
+- error_cm_max_mean : the MAE (mean absolute error rate) of maximum function using correlation manipulation technique
+- error_cm_min_max : the maximum error rate of minimum function using correlation manipulation technique
+- error_cm_min_mean : the MAE (mean absolute error rate) of minimum function using correlation manipulation technique
+- error_cm_xor_mean : the MAE (mean absolute error rate) of XOR function using correlation manipulation technique
+- error_max_mean : the MAE (mean absolute error rate) of maximum function using proposed CORLD technique
+- error_min_max : the maximum error rate of minimum function using proposed CORLD technique
+- error_min_mean : the MAE (mean absolute error rate) of minimum function using proposed CORLD technique
+- error_mp_max : the maximum error rate of multiplication function using proposed CORLD technique
+- error_mp_mean : the MAE (mean absolute error rate) of multiplication function using proposed CORLD technique
+- error_xor_mean : the MAE (mean absolute error rate) of XOR function using proposed CORLD technique
+
+![image](https://user-images.githubusercontent.com/46909403/129070551-aef059ef-c8da-455a-b834-1daa22238024.png)
+
 ## Verilog Codes
 Verilog files are responsible for hardware implementations of the mentioned methods.
 
