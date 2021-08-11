@@ -54,6 +54,11 @@ Verilog files are responsible for hardware implementations of the mentioned meth
 - <a id="2">[2]</a> Asadi, Sina, M. Hassan Najafi, and Mohsen Imani. "A Low-Cost FSM-based Bit-Stream Generator for Low-Discrepancy Stochastic Computing.", 2021 Design, Automation & Test in Europe Conference & Exhibition (DATE), 2021.
 
 
-
 Hope they will help our SC community and to expand the utilization of SC.
+Please do not hesitate to contact me if you are inetersted in this work and need further instructions on how to run (or catch the result of) the code and work on it.
+Please also keep in touch if I did anything wrong and you have a comment on the codes. I would appreciate any criticism to further improve the work. I am pretty much open to any cooperation, so feel free to contact me at:
+asadi.sina@gmail.com
+sina.asadi1@louisiana.edu
+
+Best,
 Sina
