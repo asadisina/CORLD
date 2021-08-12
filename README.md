@@ -48,6 +48,7 @@ In the above picture, the following params are defined:
 
 ## Verilog Codes
 Verilog files are responsible for hardware implementations of the mentioned methods.
+They are pretty straighforward, however, there are two seperate files for each element (Correlator2.v and deCorrelator2.v). The reason is that the proposed architecture contains a statci part and input-dependent part (fully discussed in the paper), so, the main files (Correlator.v and deCorrelator.v) contains both parts of the design and the other files (Correlator2.v and deCorrelator2.v) include only the input-dependent part in order to see the area proportion of each part.
 
 ## References
 - <a id="1">[1]</a> Asadi, Sina, M. Hassan Najafi, and Mohsen Imani. "CORLD: In-Stream Correlation Manipulation for Low-Discrepancy Stochastic Computing.", The 40th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2021
@@ -62,4 +63,4 @@ asadi.sina@gmail.com
 sina.asadi1@louisiana.edu
 
 Best,
-Sina
+SinaC
